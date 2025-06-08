@@ -1,6 +1,6 @@
-# Monitoramento de Documento Crítico
+# Monitoramento de Documento Confidencial
 
-Este projeto tem como objetivo monitorar alterações em um arquivo crítico do sistema e registrar qualquer modificação detectada em um log. Essa funcionalidade pode ser útil em contextos de segurança da informação, onde é importante auditar acessos e edições de arquivos sensíveis.
+Este projeto tem como objetivo monitorar alterações em um arquivo confidencial do sistema e registrar qualquer modificação detectada em um log usando script python.
 
 ## Funcionalidades
 
@@ -12,8 +12,8 @@ Este projeto tem como objetivo monitorar alterações em um arquivo crítico do 
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seuusuario/devops.git
-   cd monitoramento-documento
+   git clone https://github.com/seuusuario/monitorar_confidencial.git
+   cd monitorar_confidencial
    ```
 
 2. **Crie o arquivo crítico (caso ainda não exista):**
@@ -31,7 +31,7 @@ Este projeto tem como objetivo monitorar alterações em um arquivo crítico do 
 ## Exemplo de Log
 ```txt
 [2025-06-08 14:12:01] Monitoramento iniciado.
-[2025-06-08 14:13:45] Arquivo 'documento_critico.txt' foi modificado.
+[2025-06-08 14:13:45] Arquivo 'confidencial.txt' foi modificado.
 [2025-06-08 14:20:00] Monitoramento interrompido pelo usuário.
 ```
 
@@ -42,6 +42,3 @@ Este projeto tem como objetivo monitorar alterações em um arquivo crítico do 
 - Monitoramento de múltiplos arquivos ou diretórios
 - Envio de alertas por e-mail ou mensageria
 - Uso de bibliotecas como `watchdog` para eficiência
-
-## Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
