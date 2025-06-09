@@ -42,3 +42,8 @@ Este projeto tem como objetivo monitorar alterações em um arquivo confidencial
 - Monitoramento de múltiplos arquivos ou diretórios
 - Envio de alertas por e-mail ou mensageria
 - Uso de bibliotecas como `watchdog` para eficiência
+
+## Ferramentas recomendadas
+
+- Wazuh
+- Graylog
